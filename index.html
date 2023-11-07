@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography Workshop</title>
+    <!-- Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    id="home"
+    class="bg-light text-gray-dark"
+    data-spy="scroll"
+    data-target=".navbar"
+    data-offset="300"
+  >
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark fixed-top"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand order-1 mr-0"
+          href="#http://creativities.ro"
+          target="_blank"
+          >Presented by Creativities</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#mentors">Mentors</a>
+            <a class="nav-link" aria-disabled="true" href="#schedule"
+              >Schedule</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /navbar -->
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid bg-dark text-white">
+      <div class="container text-sm-center pt-5">
+        <h1 class="display-2">Full Stack Conf</h1>
+        <p class="lead">A One-day Conference About All Things JavaScript!</p>
+        <div class="mt-4 d-block mx-5 my-5">
+          <button
+            type="button"
+            class="btn btn-info btn-lg mr-3"
+            data-toggle="modal"
+            data-target="#register"
+          >
+            Register Now
+          </button>
+          <a class="btn btn-secondary btn-lg" href="#mentors"> See Mentors</a>
+        </div>
+      </div>
+    </div>
+    <!-- /jumbotron -->
+
+    <div class="container pt-4">
+      <!-- About -->
+      <div id="about" class="row my-5">
+        <div class="col-md order-lg-2">
+          <h3 class="mb-4">About The Workshop</h3>
+          <img
+            class="mb-4 img-fluid rounded d-none d-sm-block"
+            src="./images/camera.jpg"
+            alt="Camera"
+          />
+          <p>
+            Uncover the art of photography in this workshop as we explore
+            various genres, from portraits to landscapes, fashion to wildlife.
+          </p>
+          <p>
+            Enhance your skills and creative vision under the guidance of
+            seasoned professionals.
+          </p>
+        </div>
+        <div class="col-md order-lg-1">
+          <h3 class="mb-4">Expert Mentors</h3>
+          <p>
+            Meet our team of experienced photography experts, each with their
+            unique specialty and a passion for sharing their knowledge. Whether
+            you're interested in portrait and landscape photography, fashion,
+            wildlife, or street photography, our diverse panel of instructors is
+            here to guide you through the art and techniques of photography.
+          </p>
+          <p>
+            Get ready to enhance your skills, expand your creative vision, and
+            gain valuable insights from seasoned professionals in the field.
+          </p>
+        </div>
+        <div class="col-md order-lg-3">
+          <h3 class="mb-4">What You will Learn</h3>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action"
+              ><strong>Secrets of composition</strong></a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              ><strong>Lighting</strong></a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              ><strong>Storytelling through photography and images</strong></a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              ><strong>Essential camera techniques</strong></a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- /about -->
+
+      <!-- mentors -->
+      <h1 id="mentors" class="display-4 text-center my-5 text-muted">
+        Mentors
+      </h1>
+      <div class="row">
+        <div class="col-md-3 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="images/emily.png" alt="Emily" />
+            <div class="card-body">
+              <h4 class="card-title">Emily Summers</h4>
+              <p class="card-text">
+                Meet Emily Summers, an award-winning photographer known for her
+                captivating portrait and landscape photography. With years of
+                experience, Emily has graced the pages of prestigious magazines
+                and is passionate about sharing her knowledge and expertise with
+                aspiring photographers. Join her session to uncover the secrets
+                of composition, lighting, and the art of storytelling through
+                photography.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="images/lucia.png" alt="Lucia" />
+            <div class="card-body">
+              <h4 class="card-title">Lucia Chen</h4>
+              <p class="card-text">
+                Get ready to explore the world of wildlife photography with
+                Lucia Chen, a dedicated enthusiast with a deep love for nature
+                and wildlife. Lucia's captivating images of animals in their
+                natural habitat have won numerous accolades. Join her session to
+                gain a deeper understanding of wildlife photography and how to
+                capture the beauty of nature.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-lg-4">
+          <div class="card">
+            <img class="card-img-top" src="images/alex.png" alt="Alex" />
+            <div class="card-body">
+              <h4 class="card-title">Alex Parker</h4>
+              <p class="card-text">
+                Join Alex Parker, a renowned street photographer known for his
+                unique perspective on urban life. Alex's work reflects a deep
+                understanding of the human condition and cityscapes. In his
+                session, you'll learn how to capture the essence of urban life
+                and convey powerful stories through your images. Don't miss the
+                opportunity to learn from this street photography maestro.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /mentors -->
+
+      <!-- schedule -->
+      <h1 id="schedule" class="display-4 text-center my-5 text-muted">
+        Schedule
+      </h1>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Secrets of composition</h5>
+            <span class="badge badge-pill badge-info p-2">10:00am</span>
+          </div>
+          <p class="mb-1">Lucia Chen</p>
+        </li>
+        <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Storytelling through photography and images</h5>
+            <span class="badge badge-pill badge-info p-2">11:00am</span>
+          </div>
+          <p class="mb-1">Alex Parker</p>
+        </li>
+        <li class="list-group-item list-group-item-warning">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Coffee Break</h5>
+            <span class="badge badge-pill badge-info p-2">12:00pm</span>
+          </div>
+          <p class="mb-1">Free Snacks!</p>
+        </li>
+        <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Essential camera techniques</h5>
+            <span class="badge badge-pill badge-info p-2">1:00pm</span>
+          </div>
+          <p class="mb-1">Emily Summers</p>
+        </li>
+      </ul>
+      <!-- /schedule -->
+
+      <!-- callout button -->
+      <button
+        type="button"
+        class="btn btn-outline-info btn-lg d-block mx-auto my-5"
+        data-toggle="modal"
+        data-target="#register"
+      >
+        Don't Miss Out, Register Now
+      </button>
+
+      <!-- signup form -->
+      <hr />
+      <div class="row py-4 text-muted">
+        <div class="col-md col-xl-5">
+          <p><strong>About Creativities</strong></p>
+          <p>
+            Creativities is a passionate, creative NGO dedicated to involve
+            young talents in various artistic disciplines. We organize a wide
+            range of events and workshops to inspire and empower the next
+            generation of artists and creative minds.
+          </p>
+        </div>
+        <div class="col-md col-xl-5 ml-auto">
+          <p><strong>Stay up-to-date on Photography Masterclass</strong></p>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Email" />
+            <span class="input-group-btn">
+              <button class="btn btn-info" type="button">Sign up</button>
+            </span>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- /signup form -->
+
+      <!-- footer -->
+      <div class="row py-3">
+        <div class="col-md-7">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link link-primary" href="#">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark" href="#">Tracks</a>
+            </li>
+            <li class="nav-item">
+              <div class="btn-group dropup">
+                <button type="button" class="btn btn-outline-info">
+                  Other Workshops
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-info dropdown-toggle dropdown-toggle-split"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">String Art Workshop</a>
+                  <a class="dropdown-item" href="#">Drawing Workshop</a>
+                  <a class="dropdown-item" href="#">Dance Workshop</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md text-md-right">
+          <small>&copy; 2023 Photography Workshop &amp; Creativities</small>
+        </div>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /container -->
+
+    <!--=====================================
+        FORM MODAL
+       =====================================-->
+    <div
+      class="modal fade"
+      id="register"
+      tabindex="-1"
+      aria-labelledby="register form"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header bg-dark text-white">
+            <h5 class="modal-title fs-5" id="exampleModalLabel">
+              Register for Photography Workshop
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true"> &times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- registration form -->
+            <form>
+              <div
+                class="alert alert-warning alert-dismissible fade show"
+                role="alert"
+              >
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="alert"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <strong>Hurry! </strong>Early bird registration ends in two
+                days.
+              </div>
+              <h5 class="mb-4">Basic Info</h5>
+              <div class="form-group">
+                <label class="form-control-label" for="name">Name:</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+              <div class="form-group">
+                <label class="form-control-label" for="email">Email:</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="form-group">
+                <label for="role">How did you hear about this workshop?</label>
+                <select class="form-control" id="role">
+                  <option value="social media">Social Media</option>
+                  <option value="Google/search engine">
+                    Google/Search Engine
+                  </option>
+                  <option value="school">School/University</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <hr class="mb-4" />
+              <button type="submit" class="btn btn-primary btn-lg">
+                Register
+              </button>
+            </form>
+            <!-- /registration form -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+      integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
